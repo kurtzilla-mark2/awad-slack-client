@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 import { observer } from 'mobx-react';
 import { extendObservable } from 'mobx';
 import { Message, Form, Container, Header, Input, Button } from 'semantic-ui-react';
-import { gql, graphql } from 'react-apollo';
+import { graphql } from 'react-apollo';
+import gql from 'graphql-tag';
 
 class Login extends React.Component {
   constructor(props) {
